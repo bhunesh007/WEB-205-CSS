@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+
+            width:600px;
+            height: 400px;
+            text-align: center;
+            border:2px solid black;
+            margin:0 auto;
+
+        }
+        .heading{
+            color: red;
+            margin-bottom: 20px;
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border:2px solid black;
+            margin:0 auto;
+        }
+        .square{
+            width: 100px;
+            height: 100px;
+            border:2px solid black;
+        }
+        .circle-square-wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Heading</h2>
+        <div class="circle-square-wrap">
+            <div class="circle"></div>
+            <div class="square"></div>
+        </div> 
+    </div>
+  </body>
+</html>
