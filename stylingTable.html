@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questions-7</title>
+<style>
+   body{
+    background-color: black;
+   }
+   table{
+    width:60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow:gray;
+   }
+   thead{
+    background-color: green;
+    color:black;
+    padding:10px;
+    text-align: left;
+   }
+   tbody td{
+    padding: 10px;
+    border:0.1px solid black;
+   }
+   table th td{
+    border:1px solid #ddd;
+   }
+   .sum{
+    color:black;
+    font-weight: bold;
+    background-color:lightgray;
+   }
+   .total-price{
+    font-weight: bold;
+    color:black;
+    background-color: lightgray;
+   }
+</style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price per Unit</th>
+                <th>Description</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Product 1</td>
+                <td>2</td>
+                <td>$10</td>
+                <td>this is product 1</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>3</td>
+                <td>$20</td>
+                <td>this is product 2</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="sum">Sum</td>
+                <td class="total-price">$80</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- <ul>
+        <li><a>Product </a></li>
+        <p></p>
+        <li><a>Quantity</a></li>
+        <li><a>Price per Unit</a></li>
+        <li><a>Description</a></li>
+        <li><a>Total Price</a></li>
+    </ul>
+    <p>Product1</p>
+    <p>Product2</p> -->
+    
+</body>
+</html>
